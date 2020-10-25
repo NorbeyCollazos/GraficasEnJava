@@ -90,4 +90,9 @@ public class DibujarCirculos {
        
     }
     
+    public static void HacerBocaAntenas(Graphics g, int x, int y, int ancho, int alto, int inicioangulo, int arcangulo){
+        
+        g.drawArc(x, y, ancho, alto, inicioangulo, arcangulo);
+    }
+    
 }

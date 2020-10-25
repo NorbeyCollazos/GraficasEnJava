@@ -46,57 +46,56 @@ public class Inicio extends javax.swing.JFrame {
     }
     
     void Cucarron(){
-        
+        //dibujar capa roja line y  circulo del centro
         DibujarCirculos.HacerCapaRoja(panel_circulos.getGraphics(), 200, 200, 180, 180);
         DibujarCirculos.HacerLineaCentro(panel_circulos.getGraphics(), 290, 240, 290, 380);
         DibujarCirculos.HacerCirculoCentro(panel_circulos.getGraphics(), 265, 265, 50, 50);
-        
+        //dibujar circulos amarillos
         DibujarCirculos.HacerCirculoAmarillo(panel_circulos.getGraphics(), 230, 240, 20, 20);
         DibujarCirculos.HacerCirculoAmarillo(panel_circulos.getGraphics(), 215, 283, 20, 20);
-        DibujarCirculos.HacerCirculoAmarillo(panel_circulos.getGraphics(), 230, 325, 20, 20);
-        
+        DibujarCirculos.HacerCirculoAmarillo(panel_circulos.getGraphics(), 230, 325, 20, 20); 
         DibujarCirculos.HacerCirculoAmarillo(panel_circulos.getGraphics(), 330, 240, 20, 20);
         DibujarCirculos.HacerCirculoAmarillo(panel_circulos.getGraphics(), 345, 283, 20, 20);
         DibujarCirculos.HacerCirculoAmarillo(panel_circulos.getGraphics(), 330, 325, 20, 20);
-        
+        //dibujar ojos
         DibujarCirculos.HacerCirculoOjo(panel_circulos.getGraphics(), 260, 173, 30, 30);
         DibujarCirculos.HacerCirculoOjo(panel_circulos.getGraphics(), 285, 173, 30, 30);
-        
         DibujarCirculos.HacerCirculoOjoBlanco(panel_circulos.getGraphics(), 270, 175, 15, 15);
         DibujarCirculos.HacerCirculoOjoBlanco(panel_circulos.getGraphics(), 290, 175, 15, 15);
-        
+        //dibujar patas
         DibujarCirculos.HacerCirculoPatasAzules(panel_circulos.getGraphics(), 170, 200, 15, 15);
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 185, 208, 200, 203);
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 200, 203, 220, 230);
-        
         DibujarCirculos.HacerCirculoPatasVerdes(panel_circulos.getGraphics(), 140, 275, 15, 15);
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 150, 275, 165, 260);
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 165, 260, 200, 265);
-        
         DibujarCirculos.HacerCirculoPatasNaranjas(panel_circulos.getGraphics(), 175, 390, 15, 15);
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 183, 390, 183, 370);
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 183, 370, 215, 343);
-        
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 355, 230, 380, 205);
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 380, 205, 370, 180);
         DibujarCirculos.HacerCirculoPatasAzules(panel_circulos.getGraphics(), 365, 175, 15, 15);
-        
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 373, 260, 410, 255);
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 410, 255, 425, 275);
-        DibujarCirculos.HacerCirculoPatasVerdes(panel_circulos.getGraphics(), 422, 272, 15, 15);
-        
+        DibujarCirculos.HacerCirculoPatasVerdes(panel_circulos.getGraphics(), 422, 272, 15, 15); 
         DibujarCirculos.HacerCirculoPatasNaranjas(panel_circulos.getGraphics(), 415, 378, 15, 15);
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 360, 343, 400, 360);
         DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 400, 360, 417, 380);
-        
         //dibujar las antenas
         DibujarCirculos.HacerCirculoOjo(panel_circulos.getGraphics(), 245, 150, 10, 10);
-        DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 250, 155, 270, 155);
-        DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 270, 155, 270, 180);
-        
+        DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 250, 155, 262, 155);
+        DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 270, 165, 270, 180);   
         DibujarCirculos.HacerCirculoOjo(panel_circulos.getGraphics(), 320, 150, 10, 10);
-        DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 320, 155, 305, 155);
-        DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 305, 155, 305, 200);
+        DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 320, 155, 315, 155);
+        DibujarCirculos.HacerLineaPata(panel_circulos.getGraphics(), 306, 165, 305, 200);
+        DibujarCirculos.HacerBocaAntenas(panel_circulos.getGraphics(), 250, 155, 20, 30, 0, 75);
+        DibujarCirculos.HacerBocaAntenas(panel_circulos.getGraphics(), 305, 155, 25, 35, 75, 100);
+        //dibujar boca
+        DibujarCirculos.HacerBocaAntenas(panel_circulos.getGraphics(), 275, 220, 30, 20, 180, 180);
+        DibujarCirculos.HacerBocaAntenas(panel_circulos.getGraphics(), 273, 225, 37, 8, 180, 180);
+        DibujarCirculos.HacerLineaCentro(panel_circulos.getGraphics(), 272, 232, 275, 225);
+         DibujarCirculos.HacerLineaCentro(panel_circulos.getGraphics(), 305, 225, 315, 238);
+        
     }
     
     void Gallo(){
